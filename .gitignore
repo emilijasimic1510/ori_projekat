@@ -1,14 +1,14 @@
-# virtualno okruženje
+# virtual env
 .venv/
-
+# dataset i privremeni fajlovi
+data/raw/
+data/processed/*.npz
+data/processed/*.npy
+# modeli i težine (dok ne poželiš da ih gurneš)
+models/
 # jupyter
 .ipynb_checkpoints/
-
-# editor i cache
+# OS/IDE
+.DS_Store
+Thumbs.db
 .vscode/
-__pycache__/
-
-# veliki fajlovi i podaci
-data/raw/
-data/processed/
-models/
