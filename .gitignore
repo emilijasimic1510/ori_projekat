@@ -1,0 +1,14 @@
+# virtualno okruženje
+.venv/
+
+# jupyter
+.ipynb_checkpoints/
+
+# editor i cache
+.vscode/
+__pycache__/
+
+# veliki fajlovi i podaci
+data/raw/
+data/processed/
+models/
